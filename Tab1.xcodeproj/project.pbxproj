@@ -13,6 +13,10 @@
 		A64D8D4820EA3B660066FEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64D8D4620EA3B660066FEEB /* Main.storyboard */; };
 		A64D8D4A20EA3B660066FEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64D8D4920EA3B660066FEEB /* Assets.xcassets */; };
 		A64D8D4D20EA3B660066FEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64D8D4B20EA3B660066FEEB /* LaunchScreen.storyboard */; };
+		A6F6304321005ED800704490 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6F6303F21005ED800704490 /* README.md */; };
+		A6F6304421005ED800704490 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = A6F6304021005ED800704490 /* Appfile */; };
+		A6F6304521005ED800704490 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = A6F6304121005ED800704490 /* report.xml */; };
+		A6F6304621005ED800704490 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = A6F6304221005ED800704490 /* Fastfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A64D8D4920EA3B660066FEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64D8D4C20EA3B660066FEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64D8D4E20EA3B660066FEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F6303F21005ED800704490 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = fastlane/README.md; sourceTree = SOURCE_ROOT; };
+		A6F6304021005ED800704490 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
+		A6F6304121005ED800704490 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = report.xml; path = fastlane/report.xml; sourceTree = SOURCE_ROOT; };
+		A6F6304221005ED800704490 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,10 @@
 		A6DE3A6B210055370059056D /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
+				A6F6304021005ED800704490 /* Appfile */,
+				A6F6304221005ED800704490 /* Fastfile */,
+				A6F6303F21005ED800704490 /* README.md */,
+				A6F6304121005ED800704490 /* report.xml */,
 			);
 			path = fastlane;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64D8D4D20EA3B660066FEEB /* LaunchScreen.storyboard in Resources */,
+				A6F6304621005ED800704490 /* Fastfile in Resources */,
+				A6F6304421005ED800704490 /* Appfile in Resources */,
 				A64D8D4A20EA3B660066FEEB /* Assets.xcassets in Resources */,
+				A6F6304521005ED800704490 /* report.xml in Resources */,
+				A6F6304321005ED800704490 /* README.md in Resources */,
 				A64D8D4820EA3B660066FEEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
